@@ -1,0 +1,7 @@
+.swal2-popup {
+    padding: 0 0 2.5em !important;
+}
+
+.swal2-styled.swal2-confirm {
+    margin-top: 1rem;
+}
