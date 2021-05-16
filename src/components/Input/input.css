@@ -1,5 +1,5 @@
 form {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 input {
@@ -51,4 +51,33 @@ button:hover {
     position: absolute;
     margin-top: -74px;
     margin-left: 358px;
+}
+
+@media (max-width: 990px) {
+
+    input {
+        width: 330px;
+        padding-right: 8rem;
+    }
+
+    input, input::placeholder {
+        font-size: 1.15rem;
+    }
+
+    button {
+        margin-left: -60px;
+        width: 100px;
+        padding: 16px;
+    }
+
+    #error-message {
+        font-size: 1rem;
+    }
+
+    #error-icon {
+        margin-top: -65px;
+        margin-left: 240px;
+    }
+    
+
 }

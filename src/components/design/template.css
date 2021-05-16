@@ -74,3 +74,27 @@ main {
     background-image: url('../../assets/hero-desktop.jpg');
     background-size: cover;
 }
+
+@media (max-width: 1180px) {
+    #main-content {
+        padding-left: 4rem;
+    }
+}
+
+@media (max-width: 990px) {
+    html {
+        font-size: 12px
+    }
+    
+    #main-content {
+        padding-left: 2rem;
+    }
+
+    #title {
+        width: 400px;
+    }
+
+    #main-text {
+        width: 374px;
+    }
+}
