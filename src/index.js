@@ -4,5 +4,5 @@ import { ComingSoonApp } from './ComingSoonApp';
 
 ReactDOM.render(
     <ComingSoonApp />,
-  document.getElementById('root')
+  document.querySelector('main')
 );
