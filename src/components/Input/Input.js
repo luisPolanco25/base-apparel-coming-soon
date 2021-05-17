@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import './input.css';
 import arrowIcon from '../../assets/icon-arrow.svg';
 import errorIcon from '../../assets/icon-error.svg';
@@ -12,8 +12,9 @@ export const Input = () => {
     const [inputValue, setinputValue] = useState('');
     const [isInputCorrect, setIsInputCorrect] = useState(true);
     const [errorMessage, setErrorMessage] = useState('');
+    const inputRef = useRef();
     const screenWidth = useContext(screenContext);
-    
+
     const handleInputChange = ({target}) => {
         setIsInputCorrect(true);
         setErrorMessage('');
@@ -25,9 +26,11 @@ export const Input = () => {
 
         if (inputValue === '') {
             setErrorMessage('This field cannot be empty');
+            inputRef.current.select();
             setIsInputCorrect(false);
         } else if (!validator.isEmail(inputValue)) {
             setErrorMessage('Please provide a valid email');
+            inputRef.current.select();
             setIsInputCorrect(false);
         }
 
@@ -50,6 +53,7 @@ export const Input = () => {
                 <input 
                     type="text" 
                     placeholder="Email Address"
+                    ref={inputRef}
                     value={inputValue}
                     onChange={handleInputChange}
                     style={(!isInputCorrect) ? {border: '2px solid hsl(0, 93%, 68%)'} : null}
