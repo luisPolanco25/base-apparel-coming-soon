@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cf5e1fe1acdf07c66ff2c8dcd9a714a",
+    "revision": "d710ac5cdc1908ac11c1481249b7cadc",
     "url": "/base-apparel-coming-soon/index.html"
   },
   {
-    "revision": "7ed8e945b01dad162afd",
+    "revision": "51601b4f57ee59332777",
     "url": "/base-apparel-coming-soon/static/css/main.c570f14c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/base-apparel-coming-soon/static/js/2.5ed246f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ed8e945b01dad162afd",
-    "url": "/base-apparel-coming-soon/static/js/main.f2bb0470.chunk.js"
+    "revision": "51601b4f57ee59332777",
+    "url": "/base-apparel-coming-soon/static/js/main.1373aaf6.chunk.js"
   },
   {
     "revision": "0a7204d5e7def081ae71",
