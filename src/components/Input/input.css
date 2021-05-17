@@ -79,5 +79,34 @@ button:hover {
         margin-left: 240px;
     }
     
+}
+
+@media (max-width: 720px) {
+
+    form {
+        margin-bottom: 0.3rem;
+    }
+    
+    input {
+        width: 285px;
+        font-size: 1.3rem;
+        padding-right: 10.5rem;
+    }
+
+    button {
+    margin-left: -66px;
+    width: 74px;
+    padding: 18px;
+    margin-top: -2px;
+    }
+
+    #error-message {
+        font-size: 1.13rem;
+    }
+
+    #error-icon {
+        margin-top: -62px;
+        margin-left: 188px;
+    }
 
 }

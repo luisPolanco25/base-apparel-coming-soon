@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './input.css';
 import arrowIcon from '../../assets/icon-arrow.svg';
 import errorIcon from '../../assets/icon-error.svg';
 import validator from 'validator';
 import Swal from 'sweetalert2';
 import './swal2.css';
+import { screenContext } from '../../context/ScreenContext';
 
 export const Input = () => {
 
     const [inputValue, setinputValue] = useState('');
     const [isInputCorrect, setIsInputCorrect] = useState(true);
-    const [errorMessage, setErrorMessage] = useState('')
-
-
+    const [errorMessage, setErrorMessage] = useState('');
+    const screenWidth = useContext(screenContext);
+    
     const handleInputChange = ({target}) => {
         setIsInputCorrect(true);
         setErrorMessage('');
@@ -57,7 +58,7 @@ export const Input = () => {
                 
                 <button 
                     type="submit"
-                    style={(!isInputCorrect) ? {marginTop: '1px'} : null}
+                    style={(!isInputCorrect && screenWidth > 720) ? {marginTop: '1px'} : null}
                 >
                     <img src={arrowIcon} alt="Arrow button" />
                 </button>

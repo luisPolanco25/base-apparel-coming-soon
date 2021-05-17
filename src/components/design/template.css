@@ -98,3 +98,58 @@ main {
         width: 374px;
     }
 }
+
+@media (max-width:720px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    main {
+        align-items: center;
+    }
+
+    #main-image {
+        display: none;
+    }
+
+    #main-content {
+        flex-basis: 100%;
+        padding: 0;
+        align-items: center;
+        background: none;
+    }
+
+    #logo {
+        margin: 2rem 0rem 2.7rem 2.5rem;
+        align-self: flex-start;
+    }
+
+    #logo img {
+        width: 115px;
+    }
+
+    #picture {
+        width: 100%;
+        margin-bottom: 5.5rem;
+    }
+
+    #title {
+        width: 65%;
+    }
+    #title h1 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    #main-text {
+        width: 80%;
+    }
+
+    #main-text p {
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 1.48;
+    }
+
+}
