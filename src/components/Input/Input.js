@@ -53,6 +53,7 @@ export const Input = () => {
                 <input 
                     type="text" 
                     placeholder="Email Address"
+                    aria-label="Email"
                     ref={inputRef}
                     value={inputValue}
                     onChange={handleInputChange}
