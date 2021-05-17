@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/base-apparel-coming-soon/static/css/main.c570f14c.chunk.css",
+    "main.js": "/base-apparel-coming-soon/static/js/main.f2bb0470.chunk.js",
+    "main.js.map": "/base-apparel-coming-soon/static/js/main.f2bb0470.chunk.js.map",
+    "runtime-main.js": "/base-apparel-coming-soon/static/js/runtime-main.1b729f22.js",
+    "runtime-main.js.map": "/base-apparel-coming-soon/static/js/runtime-main.1b729f22.js.map",
+    "static/js/2.5ed246f1.chunk.js": "/base-apparel-coming-soon/static/js/2.5ed246f1.chunk.js",
+    "static/js/2.5ed246f1.chunk.js.map": "/base-apparel-coming-soon/static/js/2.5ed246f1.chunk.js.map",
+    "index.html": "/base-apparel-coming-soon/index.html",
+    "precache-manifest.b601efc58cf8cb57e404baa538c14dc3.js": "/base-apparel-coming-soon/precache-manifest.b601efc58cf8cb57e404baa538c14dc3.js",
+    "service-worker.js": "/base-apparel-coming-soon/service-worker.js",
+    "static/css/main.c570f14c.chunk.css.map": "/base-apparel-coming-soon/static/css/main.c570f14c.chunk.css.map",
+    "static/js/2.5ed246f1.chunk.js.LICENSE.txt": "/base-apparel-coming-soon/static/js/2.5ed246f1.chunk.js.LICENSE.txt",
+    "static/media/template.css": "/base-apparel-coming-soon/static/media/hero-desktop.003b0c97.jpg",
+    "static/media/hero-mobile.jpg": "/base-apparel-coming-soon/static/media/hero-mobile.1d55799a.jpg",
+    "static/media/icon-arrow.svg": "/base-apparel-coming-soon/static/media/icon-arrow.69950c2d.svg",
+    "static/media/icon-error.svg": "/base-apparel-coming-soon/static/media/icon-error.33780997.svg",
+    "static/media/logo.svg": "/base-apparel-coming-soon/static/media/logo.877543ce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b729f22.js",
+    "static/js/2.5ed246f1.chunk.js",
+    "static/css/main.c570f14c.chunk.css",
+    "static/js/main.f2bb0470.chunk.js"
+  ]
+}
