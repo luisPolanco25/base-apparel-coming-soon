@@ -4,3 +4,4 @@ This is my solution for this challenge made by Frontend Mentor. It was meant to 
 
 ## Live preview
 
+https://luispolanco25.github.io/base-apparel-coming-soon/
